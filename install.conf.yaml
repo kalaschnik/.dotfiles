@@ -5,9 +5,11 @@
 - clean: ["~"]
 
 - link:
-    ~/.zshrc: zshrc
+    ~/.zshrc:
+    ~/.gitconfig:
 
 - create:
-    - ~/Work/test/test3
+    - ~/OneDrive
+    - ~/Nextcloud
 # - shell:
 #     - [git submodule update --init --recursive, Installing submodules]
