@@ -144,3 +144,6 @@ alias lsa='ls -lAFh'
 
 # Syntax highlighting for man pages using bat
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+
+# Default no-quarantine for brew installs
+export HOMEBREW_CASK_OPTS="--no-quarantine"
