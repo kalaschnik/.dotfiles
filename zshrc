@@ -107,9 +107,13 @@ zstyle ':completion:*' completer _expand_alias _complete _ignored
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias lsl="/usr/local/bin/gls --color -lh --group-directories-first"
-alias ls="/usr/local/bin/gls --color --group-directories-first"
+#alias lsl="/usr/local/bin/gls --color -lh --group-directories-first"
+#alias ls="/usr/local/bin/gls --color --group-directories-first"
 alias gitgraph="git log --graph --full-history --all --color --pretty=format:'%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s'"
+
+# Use exa for ls
+alias ls=exa
+alias exa='exa -laFh --git --group-directories-first'
 
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
