@@ -15,9 +15,10 @@ brew "htop"
 brew "httpie"
 brew "lcdf-typetools" # adobe-fonts downloader
 brew "lf"
+brew "mas"
+brew "n"
 brew "neofetch"
 brew "pandoc"
-brew "r"
 brew "rsync"
 brew "tldr"
 brew "tmux"
@@ -30,6 +31,7 @@ cask "alfred"
 cask "alt-tab"
 cask "arduino"
 cask "enpass"
+cask "keepassxc"
 cask "licecap"
 cask "mattermost"
 cask "microsoft-edge"
@@ -43,19 +45,19 @@ cask "onedrive"
 cask "opensesame"
 cask "pixelsnap"
 cask "rectangle"
+cask "r" # because of https://rstats.wtf/set-up-an-r-dev-environment.html#what-about-homebrew
 cask "rstudio"
 cask "spotify"
 cask "telegram"
+cask "tunnelblick"
 cask "visual-studio-code"
 cask "vlc"
 cask "vnc-viewer"
 cask "whatsapp"
 cask "zoom"
 
-
-
-
-
+# App Store
+mas "Microsoft Remote Desktop", id: 1295203466
 
 
 
