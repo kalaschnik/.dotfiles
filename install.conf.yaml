@@ -2,19 +2,19 @@
     link:
       relink: true
 
-- clean: ["~"]
+- clean: ['~']
 
-- link:
-    ~/.zprofile:
-    ~/.zshrc:
-    ~/.gitconfig:
-    ~/.ssh/config:
+# - link:
+#     ~/.zprofile:
+#     ~/.zshrc:
+#     ~/.gitconfig:
+#     ~/.ssh/config:
 
 - create:
     - ~/OneDrive
     - ~/Nextcloud
-- shell:
-    -
-        command: ./setup_homebrew.zsh
-        stdout: true
-        stderr: true
+# - shell:
+#     -
+#         command: ./setup_homebrew.zsh
+#         stdout: true
+#         stderr: true
