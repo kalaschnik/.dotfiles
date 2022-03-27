@@ -7,3 +7,5 @@
 - vscode
 
 ## CLI
+
+Auto-create bundle dump using `brew bundle dump --force --describe` (force will overwrite the existing one)
