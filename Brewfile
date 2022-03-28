@@ -5,14 +5,14 @@ tap "homebrew/cask-fonts"
 tap "homebrew/core"
 
 # Brews (Packages, Formulae)
-brew "bat"
+brew "bat" # better cat
 brew "exa"
 brew "ffmpeg"
 brew "fzf"
 brew "gh"
 brew "git"
 brew "htop"
-brew "httpie"
+brew "httpie" # use with http for better curl
 brew "lcdf-typetools" # adobe-fonts downloader
 brew "lf"
 brew "mas"
