@@ -7,7 +7,7 @@ echo "🍺 Installing Homebrew\tn"
 brew install bat
 echo "\n🍺 Done! Homebrew installed\t\n"
 
-echo "\n>_ Installing Formulae, Casks & Fonts\tn"
+echo "\n>_ Installing Formulae, Casks & Fonts\t\n"
 
 # Uses the Brewfile
 brew bundle --verbose
