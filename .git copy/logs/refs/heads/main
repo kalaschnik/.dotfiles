@@ -1,0 +1,27 @@
+0000000000000000000000000000000000000000 09048334867beadff3cc8671c5e73f3b83d0057b Steven Kalinke <9831678+Kalaschnik@users.noreply.github.com> 1619991812 +0200	clone: from github.com:Kalaschnik/dotfiles.git
+09048334867beadff3cc8671c5e73f3b83d0057b 386e26132393ac28e8d69ba20442d56e95744181 Steven Kalinke <9831678+Kalaschnik@users.noreply.github.com> 1619992151 +0200	commit: Update Readme
+386e26132393ac28e8d69ba20442d56e95744181 386c6bc4fb53fd8b2a2bb23790ab5d880a0131c3 Steven Kalinke <9831678+Kalaschnik@users.noreply.github.com> 1620072992 +0200	commit: Add zsh manually (symlinking)
+386c6bc4fb53fd8b2a2bb23790ab5d880a0131c3 cadc2b785509939c934475f2cf62f59b12de0902 Steven Kalinke <9831678+Kalaschnik@users.noreply.github.com> 1620077776 +0200	commit: Add dotbot
+cadc2b785509939c934475f2cf62f59b12de0902 2726fab18f64cdf737152c83f18130877a3dc4dc Steven Kalinke <9831678+Kalaschnik@users.noreply.github.com> 1625432218 +0200	commit: Add zsh config
+2726fab18f64cdf737152c83f18130877a3dc4dc a65c7bd4f87d4478c09614bc6a73a9b838fa95b4 Steven Kalinke <9831678+Kalaschnik@users.noreply.github.com> 1625433589 +0200	commit: Add gitconfig
+a65c7bd4f87d4478c09614bc6a73a9b838fa95b4 94a4b88f97c688538f703dea7859cb6b110d1565 Steven Kalinke <9831678+Kalaschnik@users.noreply.github.com> 1625435119 +0200	commit: Add ssh config
+94a4b88f97c688538f703dea7859cb6b110d1565 42337018b52d43b2c9a8380d822844d0d7ab0087 Steven Kalinke <9831678+Kalaschnik@users.noreply.github.com> 1625435133 +0200	commit: Experimenting with shell commands in dotbot
+42337018b52d43b2c9a8380d822844d0d7ab0087 088c869c2bc75e932694ab0486b5fbc8cefdad38 Steven Kalinke <9831678+Kalaschnik@users.noreply.github.com> 1625470238 +0200	commit: Add bat for man pages
+088c869c2bc75e932694ab0486b5fbc8cefdad38 e2838a6183f744ede6c2ebecbbac06594e01ca2c Steven Kalinke <9831678+Kalaschnik@users.noreply.github.com> 1625490100 +0200	commit: Add setup_homebrew.zsh and run with dotbot
+e2838a6183f744ede6c2ebecbbac06594e01ca2c f3c7400209392a17f58c56245f0c838030b0902a Steven Kalinke <9831678+Kalaschnik@users.noreply.github.com> 1625574944 +0200	commit: Switch to brewfile
+f3c7400209392a17f58c56245f0c838030b0902a 0c27a8d0fec5de54cad11b977c2c6f15a258ab63 Steven Kalinke <9831678+Kalaschnik@users.noreply.github.com> 1625578787 +0200	commit: Default to no-quarantine for brew installs
+0c27a8d0fec5de54cad11b977c2c6f15a258ab63 6b05315d1cd58c3a931d53451e855eb04b9b8515 Steven Kalinke <9831678+Kalaschnik@users.noreply.github.com> 1626286610 +0200	commit: Add fzf & tldr
+6b05315d1cd58c3a931d53451e855eb04b9b8515 47f7bed7524538a42557a0b4d157ae82b9434e1b Steven Kalinke <9831678+Kalaschnik@users.noreply.github.com> 1626286623 +0200	commit: Add ksw hostname
+47f7bed7524538a42557a0b4d157ae82b9434e1b ea06ce4f8072602424006c62a21886d1ad2b014c Steven Kalinke <9831678+Kalaschnik@users.noreply.github.com> 1648402575 +0200	commit: update ssh config
+ea06ce4f8072602424006c62a21886d1ad2b014c 705610f1132db1c482c1f4caa65ea3ffed991ca0 Steven Kalinke <9831678+Kalaschnik@users.noreply.github.com> 1648402634 +0200	commit: add apps
+705610f1132db1c482c1f4caa65ea3ffed991ca0 16bb76e73582b393264f36b1921cb5a06dc9820f Steven Kalinke <9831678+Kalaschnik@users.noreply.github.com> 1648402639 +0200	commit: update dotbot
+16bb76e73582b393264f36b1921cb5a06dc9820f 1bfa18f72dd9629210540270bd03a0ab70068cb5 Steven Kalinke <9831678+Kalaschnik@users.noreply.github.com> 1648402657 +0200	commit: add vscode ad difftool
+1bfa18f72dd9629210540270bd03a0ab70068cb5 821d5f4b57f65518cd6348c076c72b0efa30f8a6 Steven Kalinke <9831678+Kalaschnik@users.noreply.github.com> 1648402667 +0200	commit: add notes
+821d5f4b57f65518cd6348c076c72b0efa30f8a6 fed380411efb4b2e2069b8560a9035b38508a8bf Steven Kalinke <9831678+Kalaschnik@users.noreply.github.com> 1648402847 +0200	commit: test
+fed380411efb4b2e2069b8560a9035b38508a8bf 8dc261377ee748bdb1688904cb7b9d0059ed662d Steven Kalinke <9831678+Kalaschnik@users.noreply.github.com> 1648456987 +0200	commit: Remove ssh config
+8dc261377ee748bdb1688904cb7b9d0059ed662d b469a90ca4c8409d8b8176abc95ed14c20e4d9b8 Steven Kalinke <9831678+Kalaschnik@users.noreply.github.com> 1648457047 +0200	commit: Add gitignore
+b469a90ca4c8409d8b8176abc95ed14c20e4d9b8 9657e0dc53f64f1bedb890bf6fd0ffe6b1b7159e Steven Kalinke <9831678+Kalaschnik@users.noreply.github.com> 1648457056 +0200	commit: remove comments
+9657e0dc53f64f1bedb890bf6fd0ffe6b1b7159e 29730fd6003846d0443a53fea78ce19a99656612 Steven Kalinke <9831678+Kalaschnik@users.noreply.github.com> 1648457076 +0200	commit: add coments
+29730fd6003846d0443a53fea78ce19a99656612 981a832206f264583c2cd1eb6f36f8468c5dfac4 Steven Kalinke <9831678+Kalaschnik@users.noreply.github.com> 1648457106 +0200	commit: Add Rprofile
+981a832206f264583c2cd1eb6f36f8468c5dfac4 9dc427eab38eddf8207cf3264dbc20272fd68135 Steven Kalinke <9831678+Kalaschnik@users.noreply.github.com> 1648457122 +0200	commit: remove fig residuals
+9dc427eab38eddf8207cf3264dbc20272fd68135 3b664930e4821966937c14802fd3edf22b0a77c5 Steven Kalinke <9831678+Kalaschnik@users.noreply.github.com> 1648457197 +0200	commit: Add VS Code code env variable to use `code`

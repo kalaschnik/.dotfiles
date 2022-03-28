@@ -1,0 +1,17 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+	worktree = ../../../dotbot
+[remote "origin"]
+	url = https://github.com/anishathalye/dotbot
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[submodule "lib/pyyaml"]
+	active = true
+	url = https://github.com/yaml/pyyaml
