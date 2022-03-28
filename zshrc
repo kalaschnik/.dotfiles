@@ -112,8 +112,12 @@ zstyle ':completion:*' completer _expand_alias _complete _ignored
 alias gitgraph="git log --graph --full-history --all --color --pretty=format:'%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s'"
 
 # Use exa for ls
-alias ls=exa
 alias exa='exa -laFh --git --group-directories-first'
+# forward ls to exa
+alias ls=exa
+# use old ls with lsa
+alias lsa='ls -lAFh'
+alias R='R --no-save --no-restore-data'
 
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
@@ -144,8 +148,6 @@ function mkcd() {
   mkdir -p "$@" && cd "$_"; # _ will cd in the last location of a list
 }
 
-alias lsa='ls -lAFh'
-alias R='R --no-save --no-restore-data'
 
 # Syntax highlighting for man pages using bat
 # https://github.com/sharkdp/bat#man
