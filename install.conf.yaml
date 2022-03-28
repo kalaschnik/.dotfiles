@@ -3,16 +3,14 @@
       relink: true
 
 - clean: ['~']
-
-# - link:
-#     ~/.zprofile:
-#     ~/.zshrc:
-#     ~/.gitconfig:
-#     ~/.ssh/config:
-
-- create:
-    - ~/OneDrive
-    - ~/Nextcloud
+- link:
+    ~/.Rprofile:
+    ~/.zshrc:
+    ~/.zprofile:
+    ~/.gitconfig:
+# - create: # if you create folder make sure they match the chmod the original app would create them with
+#     - ~/OneDrive
+#     - ~/Nextcloud
 # - shell:
 #     -
 #         command: ./setup_homebrew.zsh
