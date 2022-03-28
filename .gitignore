@@ -67,6 +67,10 @@ Temporary Items
 
 # Support for Project snippet scope
 
+Brewfile.lock.json
+
+
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
