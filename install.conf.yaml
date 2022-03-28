@@ -4,13 +4,17 @@
 
 - clean: ['~']
 - link:
-    ~/.Rprofile:
-    ~/.zshrc:
-    ~/.zprofile:
-    ~/.gitconfig:
-# - create: # if you create folder make sure they match the chmod the original app would create them with
-#     - ~/OneDrive
-#     - ~/Nextcloud
+  ~/.Rprofile:
+  ~/.zshrc:
+  ~/.zprofile:
+  ~/.gitconfig:
+- create: # make sure they match the chmod the origina app would create them with
+    - ~/.config
+      mode: 0755
+    - ~/.ssh
+      mode: 0700
+      # - ~/OneDrive
+      # - ~/Nextcloud
 - shell:
     # - [git submodule update --init --recursive, Installing submodules]
     - command: ./setup_homebrew.zsh
