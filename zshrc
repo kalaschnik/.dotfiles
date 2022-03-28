@@ -1,3 +1,8 @@
+
+#### FIG ENV VARIABLES ####
+# Please make sure this block is at the start of this file.
+[ -s ~/.fig/shell/pre.sh ] && source ~/.fig/shell/pre.sh
+#### END FIG ENV VARIABLES ####
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -145,9 +150,13 @@ function mkcd() {
 }
 
 alias lsa='ls -lAFh'
+alias R='R --no-save --no-restore-data'
 
 # Syntax highlighting for man pages using bat
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 # Default no-quarantine for brew installs
 export HOMEBREW_CASK_OPTS="--no-quarantine"
+
+export REMOVE_BG_API_KEY=PNuygW2fyLwkwEmoTHZsojhQ
+
