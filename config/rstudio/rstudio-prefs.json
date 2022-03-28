@@ -1,0 +1,69 @@
+{
+    "editor_theme": "rscodeio",
+    "panes": {
+        "quadrants": [
+            "Source",
+            "Console",
+            "TabSet1",
+            "TabSet2"
+        ],
+        "tabSet1": [
+            "Environment",
+            "History",
+            "VCS",
+            "Build",
+            "Presentation"
+        ],
+        "tabSet2": [
+            "Files",
+            "Plots",
+            "Packages",
+            "Help",
+            "Viewer",
+            "Presentations"
+        ],
+        "hiddenTabSet": [
+            "Connections",
+            "Tutorial"
+        ],
+        "console_left_on_top": false,
+        "console_right_on_top": true,
+        "additional_source_columns": 0
+    },
+    "highlight_selected_line": true,
+    "show_indent_guides": true,
+    "syntax_color_console": true,
+    "check_arguments_to_r_function_calls": true,
+    "check_unexpected_assignment_in_function_call": true,
+    "warn_variable_defined_but_not_used": true,
+    "style_diagnostics": true,
+    "font_size_points": 12,
+    "pdf_previewer": "none",
+    "posix_terminal_shell": "zsh",
+    "jobs_tab_visibility": "shown",
+    "default_encoding": "UTF-8",
+    "document_author": "Steven Kalinke",
+    "rmd_viewer_type": "pane",
+    "full_project_path_in_window_title": true,
+    "initial_working_directory": "~/Nextcloud/git",
+    "default_project_location": "~/Nextcloud/git",
+    "visual_markdown_editing_is_default": true,
+    "highlight_r_function_calls": true,
+    "rainbow_parentheses": true,
+    "auto_append_newline": true,
+    "strip_trailing_whitespace": true,
+    "show_doc_outline_rmd": true,
+    "margin_column": 100,
+    "scroll_past_end_of_document": true,
+    "show_hidden_files": true,
+    "git_exe_path": "/usr/local/bin/git",
+    "visual_markdown_editing_show_doc_outline": false,
+    "visual_markdown_editing_show_margin": true,
+    "visual_markdown_editing_max_content_width": 1000,
+    "save_workspace": "never",
+    "load_workspace": false,
+    "shiny_viewer_type": "pane",
+    "remove_history_duplicates": true,
+    "python_project_environment_automatic_activate": false,
+    "insert_native_pipe_operator": true
+}

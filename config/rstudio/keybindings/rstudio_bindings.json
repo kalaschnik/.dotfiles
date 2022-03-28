@@ -1,0 +1,12 @@
+{
+  "addCursorAbove": "Alt+Cmd+Up",
+  "addCursorBelow": "Alt+Cmd+Down",
+  "removeLine": "Shift+Cmd+K",
+  "goToFileFunction": "Cmd+P",
+  "commentUncomment": "Shift+Cmd+7",
+  "renameInScope": "Shift+Cmd+L",
+  "previewHTML": "Alt+Shift+Cmd+K",
+  "checkPackage": "Ctrl+Shift+C",
+  "nextTab": "Ctrl+Tab",
+  "previousTab": "Ctrl+Shift+Tab"
+}

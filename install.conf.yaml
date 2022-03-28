@@ -1,22 +1,31 @@
 - defaults:
     link:
+      create: true
       relink: true
 
 - clean: ['~']
+
 - link:
-  ~/.Rprofile:
-  ~/.zshrc:
-  ~/.zprofile:
-  ~/.gitconfig:
-- create: # make sure they match the chmod the origina app would create them with
-    - ~/.config
-      mode: 0755
-    - ~/.ssh
-      mode: 0700
-      # - ~/OneDrive
-      # - ~/Nextcloud
-- shell:
-    # - [git submodule update --init --recursive, Installing submodules]
-    - command: ./setup_homebrew.zsh
-      stdout: true
-      stderr: true
+    ~/.Rprofile:
+    ~/.zshrc:
+    ~/.zprofile:
+    ~/.gitconfig:
+    ~/.config/bat:
+      path: config/bat
+    ~/.config/neofetch:
+      path: config/neofetch
+    ~/.config/radian:
+      path: config/radian
+    ~/.config/rstudio:
+      path: config/rstudio
+# - create: # make sure they match the chmod the origina app would create them with
+#     ~/.ssh:
+#       mode: 0700
+#       # - ~/OneDrive
+#       # - ~/Nextcloud
+
+# - shell:
+#     # - [git submodule update --init --recursive, Installing submodules]
+#     - command: ./setup_homebrew.zsh
+#       stdout: true
+#       stderr: true
