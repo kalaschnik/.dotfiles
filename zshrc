@@ -148,6 +148,7 @@ alias lsa='ls -lAFh'
 alias R='R --no-save --no-restore-data'
 
 # Syntax highlighting for man pages using bat
+# https://github.com/sharkdp/bat#man
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 # Default no-quarantine for brew installs
