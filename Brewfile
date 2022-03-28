@@ -42,7 +42,6 @@ cask "microsoft-word"
 cask "nextcloud"
 cask "obs"
 cask "onedrive"
-cask "opensesame"
 cask "pixelsnap"
 cask "rectangle"
 cask "r" # because of https://rstats.wtf/set-up-an-r-dev-environment.html#what-about-homebrew
