@@ -34,8 +34,9 @@ alias R='R --no-save --no-restore-data'
 ###############################################################################
 # Functions
 ###############################################################################
+# matching with oh-my-zsh’s take: https://github.com/ohmyzsh/ohmyzsh/blob/9e967b4eccbe26701315860a3b0bad01fde725c8/lib/functions.zsh#L39
 function mkcd() {
-  mkdir -p "$@" && cd "$_"; # _ will cd in the last location of a list
+  mkdir -p $@ && cd ${@:$#}
 }
 
 
