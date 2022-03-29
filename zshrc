@@ -25,6 +25,7 @@ if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
   autoload -Uz compinit
   compinit
+  zstyle ':completion:*' menu select
 fi
 
 ###############################################################################
@@ -57,3 +58,11 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 # Default no-quarantine for brew installs
 export HOMEBREW_CASK_OPTS="--no-quarantine"
+
+
+
+###############################################################################
+# Last Load
+###############################################################################
+# Syntax Highlighting (https://formulae.brew.sh/formula/zsh-syntax-highlighting)
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
