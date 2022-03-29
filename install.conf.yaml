@@ -27,8 +27,8 @@
 #       # - ~/OneDrive
 #       # - ~/Nextcloud
 
-# - shell:
-#     # - [git submodule update --init --recursive, Installing submodules]
-#     - command: ./setup_homebrew.zsh
-#       stdout: true
-#       stderr: true
+- shell:
+    # - [git submodule update --init --recursive, Installing submodules]
+    - command: ./setup_homebrew.zsh
+      stdout: true
+      stderr: true
