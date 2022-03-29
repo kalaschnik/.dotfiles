@@ -9,11 +9,16 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # Powerlevel10k Theme
-# needs: brew install romkatv/powerlevel10k/powerlevel10k
+# requires brew install romkatv/powerlevel10k/powerlevel10k
 source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+###############################################################################
+# ZSH Plugins
+###############################################################################
+# enable autosuggestions (requires brew install zsh-autosuggestions)
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 ###############################################################################
 # Aliases
@@ -34,16 +39,12 @@ function mkcd() {
 }
 
 
-
-# enable autosuggestions (requires brew install zsh-autosuggestions)
-source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-
+###############################################################################
 # Utilities
+###############################################################################
 # Syntax highlighting for man pages using bat
 # https://github.com/sharkdp/bat#man
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 # Default no-quarantine for brew installs
 export HOMEBREW_CASK_OPTS="--no-quarantine"
-
-
