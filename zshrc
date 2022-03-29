@@ -17,8 +17,15 @@ source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme
 ###############################################################################
 # ZSH Plugins
 ###############################################################################
-# enable autosuggestions (requires brew install zsh-autosuggestions)
+# enable autosuggestions (requires https://formulae.brew.sh/formula/zsh-autosuggestions)
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# enable zsh completen (requires https://formulae.brew.sh/formula/zsh-completions)
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+  autoload -Uz compinit
+  compinit
+fi
 
 ###############################################################################
 # Aliases
