@@ -66,3 +66,8 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 ###############################################################################
 # Syntax Highlighting (https://formulae.brew.sh/formula/zsh-syntax-highlighting)
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# History substring search (https://formulae.brew.sh/formula/zsh-history-substring-search)
+# this needs to come after syntax highlighting: https://github.com/zsh-users/zsh-history-substring-search#usage
+source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-substring-search.zsh
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
