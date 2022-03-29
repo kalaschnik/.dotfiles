@@ -26,3 +26,7 @@ Revist laterf for
 brew less because of scrolling
 
 Powerlevel10k also boots the startup performance of zsh, set it to verbose to detect if this causes an issue
+
+r is a cask because of https://rstats.wtf/set-up-an-r-dev-environment.html#what-about-homebrew
+
+rectangle (no backup, defaults are fine, and painful)
