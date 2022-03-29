@@ -14,8 +14,6 @@ brew "python@3.9"
 brew "glib"
 # Manage compile and link flags for libraries
 brew "pkg-config"
-# Pack, ship and run any application as a lightweight container
-brew "docker"
 # Modern replacement for 'ls'
 brew "exa"
 # GNU Ubiquitous Intelligent Language for Extensions
