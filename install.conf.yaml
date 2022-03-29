@@ -6,10 +6,13 @@
 - clean: ['~']
 
 - link:
+    # Files
+    ~/.gitconfig:
+    ~/.p10k.zsh:
     ~/.Rprofile:
     ~/.zshrc:
     ~/.zprofile:
-    ~/.gitconfig:
+    # Directories
     ~/.config/bat:
       path: config/bat
     ~/.config/neofetch:
