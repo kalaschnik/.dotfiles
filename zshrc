@@ -34,8 +34,9 @@ fi
 alias exa='exa -laFh --git --group-directories-first'
 # forward ls to exa
 alias ls=exa
+alias ll=exa
 # use old ls with lsa
-alias lsa='ls -lAFh'
+alias lsa='command ls -lAFh'
 alias R='R --no-save --no-restore-data'
 
 ###############################################################################
