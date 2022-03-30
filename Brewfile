@@ -60,6 +60,8 @@ brew "lf"
 brew "mas"
 # Node version management
 brew "n"
+# Free (GNU) replacement for the Pico text editor
+brew "nano"
 # Fast, highly customisable system info script
 brew "neofetch"
 # Platform built on V8 to build network applications
