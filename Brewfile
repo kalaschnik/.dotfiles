@@ -82,6 +82,10 @@ brew "youtube-dl"
 brew "zsh-autosuggestions"
 # Additional completion definitions for zsh
 brew "zsh-completions"
+# Zsh port of Fish shell's history search
+brew "zsh-history-substring-search"
+# Fish shell like syntax highlighting for zsh
+brew "zsh-syntax-highlighting"
 # Remove image background - 100% automatically
 brew "remove-bg/tap/removebg"
 # A Zsh Theme
