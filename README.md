@@ -28,5 +28,14 @@ brew less because of scrolling
 Powerlevel10k also boots the startup performance of zsh, set it to verbose to detect if this causes an issue
 
 r is a cask because of https://rstats.wtf/set-up-an-r-dev-environment.html#what-about-homebrew
+TODO cask r requires password entry when running it `./install`
 
 rectangle (no backup, defaults are fine, and painful)
+
+Steps todo in post
+`compaudit | xargs chmod g-w` to fix https://github.com/zsh-users/zsh-completions/issues/433
+
+readme automate font installations
+MesloLGS NF
+
+setup terminal configs (usinng meslolgs nf)
