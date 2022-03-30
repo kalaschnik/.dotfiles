@@ -59,7 +59,14 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 # Default no-quarantine for brew installs
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 
+export N_PREFIX="$HOME/.n"
+export PREFIX="$N_PREFIX"
 
+
+###############################################################################
+# Path additions
+###############################################################################
+export PATH="$PATH:$N_PREFIX/bin"
 
 ###############################################################################
 # Last Load
