@@ -60,6 +60,9 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 # Default no-quarantine for brew installs
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 
+# This is also used by R and radian to set response language
+export LANG=en_US.UTF-8
+
 export N_PREFIX="$HOME/.n"
 export PREFIX="$N_PREFIX"
 
