@@ -39,6 +39,7 @@ alias ll=exa
 # use old ls with lsa
 alias lsa='command ls -lAFh'
 alias R='R --no-save --no-restore-data'
+alias bbd='brew bundle dump --file=~/.dotfiles/Brewfile --force --describe'
 
 ###############################################################################
 # Functions
@@ -47,7 +48,6 @@ alias R='R --no-save --no-restore-data'
 function mkcd() {
   mkdir -p $@ && cd ${@:$#}
 }
-
 
 ###############################################################################
 # Utilities
@@ -66,6 +66,7 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 ###############################################################################
 # Syntax Highlighting (https://formulae.brew.sh/formula/zsh-syntax-highlighting)
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 # History substring search (https://formulae.brew.sh/formula/zsh-history-substring-search)
 # this needs to come after syntax highlighting: https://github.com/zsh-users/zsh-history-substring-search#usage
 source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-substring-search.zsh
