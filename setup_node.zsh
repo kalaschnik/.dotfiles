@@ -11,3 +11,5 @@ if ! exists node; then
   n lts
   n latest
 fi
+
+npm i --g trash-cli

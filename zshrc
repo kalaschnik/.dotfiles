@@ -40,6 +40,7 @@ alias ll=exa
 alias lsa='command ls -lAFh'
 alias R='R --no-save --no-restore-data'
 alias bbd='brew bundle dump --file=~/.dotfiles/Brewfile --force --describe'
+alias rm=trash # using node’s global trash-cli
 
 ###############################################################################
 # Functions
