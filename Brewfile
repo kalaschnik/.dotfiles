@@ -101,7 +101,10 @@ cask "figma"
 # Web browser
 cask "firefox"
 cask "font-computer-modern"
+cask "font-fira-code"
+cask "font-fira-code-nerd-font"
 cask "font-inter"
+cask "font-open-sans"
 # Utility to fix grammar errors and style issues in text
 cask "grammarly"
 # Password manager app
