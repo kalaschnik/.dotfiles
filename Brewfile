@@ -123,8 +123,12 @@ cask "r"
 cask "signal"
 # Quicklook extension for source files
 cask "syntax-highlight"
+# Messaging app with a focus on speed and security
+cask "telegram"
 # Remote desktop application focusing on security
 cask "vnc-viewer"
+# Desktop client for WhatsApp
+cask "whatsapp"
 mas "Enpass", id: 732710998
 mas "Keynote", id: 409183694
 mas "Keyshape", id: 1223341056
