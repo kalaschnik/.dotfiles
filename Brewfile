@@ -109,6 +109,8 @@ cask "font-inter"
 cask "font-open-sans"
 # Utility to fix grammar errors and style issues in text
 cask "grammarly"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
 # Password manager app
 cask "keepassxc"
 # Open-source, self-hosted Slack-alternative
