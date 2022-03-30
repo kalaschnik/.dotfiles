@@ -68,6 +68,8 @@ brew "node", link: false
 brew "pandoc"
 # Utility that provides fast incremental file transfer
 brew "rsync"
+# Version control system designed to be a better CVS
+brew "subversion"
 # Simplified and community-driven man pages
 brew "tldr"
 # Terminal multiplexer
