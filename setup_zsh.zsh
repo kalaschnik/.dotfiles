@@ -15,7 +15,7 @@
 echo "\n====================\t👨‍💻 Setup ZSH\t====================\n"
 
 echo "Adding hombrew zsh to /etc/shells to allow — Enter sudo password:\n"
-echo '/usr/local/bin/zsh' | sudo tee -a /etc/shells
+echo '/usr/local/bin/zsh' | sudo tee -a /etc/shells >/dev/null
 
 echo "Change login shell — Enter user password:\n"
 chsh -s /usr/local/bin/zsh
