@@ -5,12 +5,16 @@
 
 - clean: ['~']
 
+# run only link section: ./install --only link
+# run everything except: ./install --no-link
+
 - link:
     # Files
     ~/.gitconfig:
     ~/.p10k.zsh:
     ~/.Rprofile:
     ~/.zshrc:
+    ~/.zshenv:
     ~/.zprofile:
     # Directories
     ~/.config/bat:
