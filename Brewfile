@@ -64,8 +64,6 @@ brew "n"
 brew "nano"
 # Fast, highly customisable system info script
 brew "neofetch"
-# Platform built on V8 to build network applications
-brew "node", link: false
 # Swiss-army knife of markup format conversion
 brew "pandoc"
 # Utility that provides fast incremental file transfer
