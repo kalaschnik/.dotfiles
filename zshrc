@@ -71,7 +71,13 @@ export PREFIX="$N_PREFIX"
 ###############################################################################
 # Path additions
 ###############################################################################
-export PATH="$PATH:$N_PREFIX/bin"
+export PATH="$N_PREFIX/bin:$PATH:"
+# create unique path (not playing nice with powerlevel10k)
+# typeset -U path
+# path=(
+#   "$N_PREFIX/bin"
+#   path
+# )
 
 ###############################################################################
 # Last Load
