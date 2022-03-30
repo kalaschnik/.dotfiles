@@ -80,6 +80,8 @@ brew "tmux"
 brew "wget"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
+# UNIX shell (command interpreter)
+brew "zsh"
 # Fish-like fast/unobtrusive autosuggestions for zsh
 brew "zsh-autosuggestions"
 # Additional completion definitions for zsh
