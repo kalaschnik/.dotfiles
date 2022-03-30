@@ -13,9 +13,12 @@
 # /etc/shells  
 
 echo "\n====================\t👨‍💻 Setup ZSH\t====================\n"
+if ! grep -Fxq '/usr/local/bin/zsh' '/etc/shells'; then
+  echo "Adding hombrew zsh to /etc/shells to allow — Enter sudo password:\n"
+  echo '/usr/local/bin/zsh' | sudo tee -a '/etc/shells' >/dev/null
+fi
 
-echo "Adding hombrew zsh to /etc/shells to allow — Enter sudo password:\n"
-echo '/usr/local/bin/zsh' | sudo tee -a /etc/shells >/dev/null
-
-echo "Change login shell — Enter user password:\n"
-chsh -s /usr/local/bin/zsh
+if ! [ "$SHELL" = '/usr/local/bin/zsh' ]; then
+  echo "Change login shell — Enter user password:\n"
+  chsh -s /usr/local/bin/zsh
+fi
