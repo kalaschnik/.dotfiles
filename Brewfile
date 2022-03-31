@@ -125,6 +125,8 @@ cask "pixelsnap"
 cask "r"
 # Instant messaging application focusing on security
 cask "signal"
+# Music streaming service
+cask "spotify"
 # Quicklook extension for source files
 cask "syntax-highlight"
 # Messaging app with a focus on speed and security

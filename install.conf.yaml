@@ -2,6 +2,9 @@
     link:
       create: true
       relink: true
+    shell:
+      stdout: true
+      stderr: true
 
 - clean: ['~']
 
@@ -33,12 +36,7 @@
 
 - shell:
     # - [git submodule update --init --recursive, Installing submodules]
-    - command: ./setup_homebrew.zsh
-      stdout: true
-      stderr: true
-    - command: ./setup_zsh.zsh
-      stdout: true
-      stderr: true
-    - command: ./setup_node.zsh
-      stdout: true
-      stderr: true
+    - command: ./setup
+    # - command: ./setup_homebrew.zsh
+    # - command: ./setup_zsh.zsh
+    # - command: ./setup_node.zsh

@@ -1,0 +1,73 @@
+#!/usr/bin/env zsh
+
+source globals
+
+# initialize needs_app to false
+needs_homebrew=false
+needs_zsh_trusted=false
+needs_zsh_default=false
+needs_node=false
+needs_iterm=false
+
+
+echo "\n${CLRHEAD}=== SUMMARY${CLRNC}"
+
+# homebrew check
+if exists brew ; then
+  echo "${CLRSUCCESS}✔ Homebrew is already installed, skipping installation${CLRNC}"
+else
+  echo "${CLRINFO}ℹ Homebrew will be installed${CLRNC}, along with all apps defined in Brewfile"
+  needs_homebrew=true
+fi
+
+# check if zsh is in trusted shells
+if grep -Fxq '/usr/local/bin/zsh' '/etc/shells'; then
+  # check if zsh is the default shell
+  if [ "$SHELL" = '/usr/local/bin/zsh' ]; then
+    echo "${CLRSUCCESS}✔ ZSH is in /etc/shells and is set as the default in \$SHELL, skipping setup${CLRNC}"
+  fi
+fi
+
+if ! grep -Fxq '/usr/local/bin/zsh' '/etc/shells'; then
+  echo "${CLRINFO}ℹ ZSH will be added to /etc/shells${CLRNC}"
+  needs_zsh_trusted=true
+fi
+
+if ! [ "$SHELL" = '/usr/local/bin/zsh' ]; then
+  echo "${CLRINFO}ℹ ZSH will be set as the default in \$SHELL${CLRNC}"
+  needs_zsh_default=true
+fi
+
+# node
+if exists node ; then
+  echo "${CLRSUCCESS}✔ nodejs is already installed, skipping installation${CLRNC}"
+else
+  echo "${CLRINFO}ℹ nodejs will be installed via n${CLRNC}"
+  needs_node=true
+fi
+
+# iterm2
+if [[ -d /Applications/iTer2m.app ]]; then
+  echo "${CLRSUCCESS}✔ iTerm2 is already installed, skipping installation${CLRNC}"
+else
+  echo "${CLRINFO}ℹ iTerm2 will be installed via n${CLRNC}"
+  needs_iterm=true
+fi
+
+# echo $needs_homebrew
+# echo $needs_zsh_trusted
+# echo $needs_zsh_default
+# echo $needs_node
+# echo $needs_iterm
+
+sleep_countdown 10 "Setup starting in"
+
+# delegate installments to subscripts
+
+if $needs_homebrew ; then source ./setup_homebrew; fi
+if $needs_zsh_trusted ; then source ./setup_zsh_trusted ; fi
+if $needs_zsh_default ; then source ./setup_zsh_default; fi
+if $needs_node ; then source ./setup_node; fi
+# this is actually just the conifg and not the install
+if $needs_iterm ; then source ./setup_iterm; fi
+

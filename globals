@@ -1,0 +1,5 @@
+#!/usr/bin/env zsh
+
+# source everything to make it available for all scripts
+source ./colors
+source ./utils

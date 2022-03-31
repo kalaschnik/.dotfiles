@@ -1,0 +1,7 @@
+#!/usr/bin/env zsh
+
+# for info see setup_zsh_trusted
+echo "Change login shell — Enter user password:\n"
+chsh -s /usr/local/bin/zsh
+
+

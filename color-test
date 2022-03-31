@@ -1,0 +1,14 @@
+#!/usr/bin/env zsh
+
+source ./colors
+
+printf "THIS IS ${CLRINFO}COMING FROM COLORS FILE${CLRNC}!! WHAT\n" 
+
+REDBG='\033[0;31;40m'
+YELLOW='\033[0;33m'
+NC='\033[0m' # No Color
+
+printf "This is how ${REDBG}background colors${NC} and ${YELLOW}colors${NC} work:\n" 
+printf 'Prepend the color/style with \\033[  Then paste the number code from the table. Stop with m. No semicolon in the end!\n'
+
+for x in {0..8}; do for i in {30..37}; do for a in {40..47}; do echo -ne "\e[$x;$i;$a""m\\\e[$x;$i;$a""m\e[0;37;40m "; done; echo; done; done; echo ""
