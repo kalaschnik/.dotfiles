@@ -1,5 +1,8 @@
 #!/usr/bin/env zsh
 
+# install homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
 # HOMEBREW_CASK_OPTS is exported in `zshenv` with
 # `--no-quarantine` and `--no-binaries` options,
 # which makes them available to Homebrew for the
