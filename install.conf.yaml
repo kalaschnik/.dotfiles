@@ -37,3 +37,4 @@
 - shell:
     # - [git submodule update --init --recursive, Installing submodules]
     - command: ./setup
+    - command: ./setup_macos

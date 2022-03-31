@@ -1,0 +1,56 @@
+#!/usr/bin/env zsh
+
+osascript -e 'tell application "System Preferences" to quit'
+
+
+# FINDER
+# Finder > View > Show Path Bar
+defaults write com.apple.finder ShowPathbar -bool true
+
+# Show all file extensions inside the Finder
+defaults write NSGlobalDomain "AppleShowAllExtensions" -bool "true"
+
+
+# DOCK
+defaults write com.apple.dock magnification -bool false
+
+# Dock icon size of 48 pixels.
+defaults write com.apple.dock "tilesize" -int "48"
+
+# Autohide the Dock when the mouse is out
+defaults write com.apple.dock "autohide" -bool "true"
+
+# Remove the autohide delay, the Dock appears instantly
+defaults write com.apple.dock "autohide-delay" -float "0"
+
+# Do not display recent apps in the Dock
+defaults write com.apple.dock "show-recents" -bool "false" && killall Dock
+
+# Change the Dock minimize animation 
+defaults write com.apple.dock "mineffect" -string "scale"
+
+
+# SYSTEM
+# Set default screenshot location
+defaults write com.apple.screencapture "location" -string "~/Downloads"
+
+# Choose whether to rearrange Spaces automatically — Keep the Spaces arrangement
+defaults write com.apple.dock "mru-spaces" -bool "false"
+
+# Rich text is disabled by default
+defaults write com.apple.TextEdit "RichText" -bool "false"
+
+
+# SOUND
+# Disable the sound effects on boot
+sudo nvram SystemAudioVolume=" "
+
+sudo scutil --set ComputerName "PsychoMBPro7w"
+sudo scutil --set HostName "PsychoMBPro7w"
+sudo scutil --set LocalHostName "PsychoMBPro7w"
+
+
+# Finish macOS Setup
+killall SystemUIServer
+killall Finder
+killall Dock
