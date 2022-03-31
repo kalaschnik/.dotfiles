@@ -8,9 +8,9 @@
 brew bundle --verbose
 
 # Should we wrap this in a conditional?
-echo "Enter superuser (sudo) password to accept Xcode license"
-sudo xcodebuild -license accept
-sudo xcodebuild -runFirstLaunch
+# echo "Enter superuser (sudo) password to accept Xcode license"
+# sudo xcodebuild -license accept
+# sudo xcodebuild -runFirstLaunch
 
 
 # This works to solve the Insecure Directories issue:
