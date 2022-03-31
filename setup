@@ -47,7 +47,7 @@ else
 fi
 
 # iterm2
-if [[ -d /Applications/iTer2m.app ]]; then
+if [[ -d /Applications/iTerm.app ]]; then
   echo "${CLRSUCCESS}✔ iTerm2 is already installed, skipping installation${CLRNC}"
 else
   echo "${CLRINFO}ℹ iTerm2 will be installed via n${CLRNC}"

@@ -37,6 +37,3 @@
 - shell:
     # - [git submodule update --init --recursive, Installing submodules]
     - command: ./setup
-    # - command: ./setup_homebrew.zsh
-    # - command: ./setup_zsh.zsh
-    # - command: ./setup_node.zsh
