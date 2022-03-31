@@ -65,9 +65,9 @@ sleep_countdown 10 "Setup starting in"
 # delegate installments to subscripts
 
 if $needs_homebrew ; then source ./setup_homebrew; fi
-if $needs_zsh_trusted ; then source ./setup_zsh_trusted ; fi
-if $needs_zsh_default ; then source ./setup_zsh_default; fi
-if $needs_node ; then source ./setup_node; fi
-# this is actually just the conifg and not the install
-if $needs_iterm ; then source ./setup_iterm; fi
+# if $needs_zsh_trusted ; then source ./setup_zsh_trusted ; fi
+# if $needs_zsh_default ; then source ./setup_zsh_default; fi
+# if $needs_node ; then source ./setup_node; fi
+# # this is actually just the conifg and not the install
+# if $needs_iterm ; then source ./setup_iterm; fi
 
