@@ -46,39 +46,31 @@
    ln -s ~/Nextcloud/.dotfiles/ssh/config ~/.ssh/config
    ```
 
-## CLI
+## Notes for myself
 
-Auto-create bundle dump using `brew bundle dump --force --describe` (force will overwrite the existing one)
+### YOU DON’T NEED OH MY ZSH
 
-How to deal with ssh config file?
+When I started taking care of my dotfiles, I realized oh myzsh is polluting my `.zshrc`, and maybe other places as well. To be in full control, you can actually install the stuff you like about oh-my-zsh manually using homebrew (see `Brewfile`); e.g.,
 
-# YOU DONT NEED OH MY ZSH
+- zsh-autosuggestions
+- zsh-completions
+- zsh-history-substring-search
+- zsh-syntax-highlighting
 
-Based on ...
-Revist laterf for
+Resources to bypass oh-my-zsh:
 
-- zprofile (moveing zshrc to .config?)
-- update zsh plugins (not need because they are updated from homebrew)
-  https://www.youtube.com/watch?v=bTLYiNvRIVI
+- https://joshtronic.com/2017/02/12/you-may-not-need-oh-my-zsh/
+- https://www.youtube.com/watch?v=6t0Mb9noFHo
+- https://www.youtube.com/watch?v=21_WkzBErQk
+- https://www.youtube.com/watch?v=bTLYiNvRIVI
 
-- autocomplete
+### Powerlevel10k (p10k)
 
-brew less because of scrolling
+- Powerlevel10k also boots the startup performance of zsh, set it to verbose to detect if this causes an issue
 
-Powerlevel10k also boots the startup performance of zsh, set it to verbose to detect if this causes an issue
+### R
 
-r is a cask because of https://rstats.wtf/set-up-an-r-dev-environment.html#what-about-homebrew
-TODO cask r requires password entry when running it `./install`
-
-rectangle (no backup, defaults are fine, and painful)
-
-Steps todo in post
-`compaudit | xargs chmod g-w` to fix https://github.com/zsh-users/zsh-completions/issues/433
-
-readme automate font installations
-MesloLGS NF
-
-setup terminal configs (usinng meslolgs nf)
+Use the r cask version because of https://rstats.wtf/set-up-an-r-dev-environment.html#what-about-homebrew
 
 ### Appendix
 
