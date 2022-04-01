@@ -28,11 +28,11 @@
       path: config/radian
     ~/.config/rstudio:
       path: config/rstudio
-# - create: # make sure they match the chmod the origina app would create them with
-#     ~/.ssh:
-#       mode: 0700
-#       # - ~/OneDrive
-#       # - ~/Nextcloud
+
+- create:
+    # Bootstrap ssh directory (will be done by ssh-keygen before running the script)
+    # ~/.ssh/:
+    #   mode: 0700
 
 - shell:
     # - [git submodule update --init --recursive, Installing submodules]
