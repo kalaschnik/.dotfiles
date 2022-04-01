@@ -92,6 +92,8 @@ brew "zsh-syntax-highlighting"
 brew "remove-bg/tap/removebg"
 # A Zsh Theme
 brew "romkatv/powerlevel10k/powerlevel10k"
+# Password manager that keeps all passwords secure behind one password
+cask "1password"
 # Application launcher and productivity software
 cask "alfred"
 # Enable Windows-like alt-tab
