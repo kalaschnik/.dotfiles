@@ -107,22 +107,42 @@ cask "font-fira-code"
 cask "font-fira-code-nerd-font"
 cask "font-inter"
 cask "font-open-sans"
+# Web browser
+cask "google-chrome"
 # Utility to fix grammar errors and style issues in text
 cask "grammarly"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Password manager app
 cask "keepassxc"
+# Animated screen capture application
+cask "licecap"
 # Open-source, self-hosted Slack-alternative
 cask "mattermost"
+# Provides updates to various Microsoft products
+cask "microsoft-auto-update"
+# Web browser
+cask "microsoft-edge"
+# Spreadsheet software
+cask "microsoft-excel"
+# Presentation software
+cask "microsoft-powerpoint"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
+# Word processor
+cask "microsoft-word"
+# Desktop sync client for Nextcloud software products
+cask "nextcloud"
 # Open-source software for live streaming and screen recording
 cask "obs"
+# Cloud storage client
+cask "onedrive"
 # Screen measuring tool
 cask "pixelsnap"
 # Environment for statistical computing and graphics
 cask "r"
+# Data science software focusing on R and Python
+cask "rstudio"
 # Instant messaging application focusing on security
 cask "signal"
 # Music streaming service
@@ -131,10 +151,14 @@ cask "spotify"
 cask "syntax-highlight"
 # Messaging app with a focus on speed and security
 cask "telegram"
+# Free and open-source OpenVPN client
+cask "tunnelblick"
 # Remote desktop application focusing on security
 cask "vnc-viewer"
 # Desktop client for WhatsApp
 cask "whatsapp"
+# Video communication and virtual meeting platform
+cask "zoom"
 mas "Enpass", id: 732710998
 mas "Keynote", id: 409183694
 mas "Keyshape", id: 1223341056
