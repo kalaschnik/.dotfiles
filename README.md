@@ -2,9 +2,7 @@
 
 # My .dotfiles (macOS)
 
-> My dotfiles and configuration scripts to backup and setup a new machine, using [dotbot](https://github.com/anishathalye/dotbot) & [Homebrew](https://github.com/Homebrew/brew), and custom bash scripts.
-
----
+> My dotfiles and configuration scripts to setup a new machine, using [dotbot](https://github.com/anishathalye/dotbot) & [Homebrew](https://github.com/Homebrew/brew), and custom bash scripts.
 
 ---
 
