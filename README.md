@@ -1,8 +1,10 @@
-<img align="right" width="170" src="assets/dotfiles-logo-stacked.png">
+<img align="right" width="96" src="assets/dotfiles-logo-stacked.png">
 
 # My .dotfiles (macOS)
 
-> Using [dotbot](https://github.com/anishathalye/dotbot) & [Homebrew](https://github.com/Homebrew/brew)
+> My dotfiles and configuration scripts to backup and setup a new machine, using [dotbot](https://github.com/anishathalye/dotbot) & [Homebrew](https://github.com/Homebrew/brew), and custom bash scripts.
+
+---
 
 ---
 
