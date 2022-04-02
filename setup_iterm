@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env bash
 
 
 echo "\n====================\tSetup iTerm2\t====================\n"

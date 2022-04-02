@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env bash
 
 # for info see setup_zsh_trusted
 echo "Change login shell — Enter user password:\n"

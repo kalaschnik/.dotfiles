@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env bash
 
 echo "\nRunning $0\n"
 echo "ZSH_VERSION → $ZSH_VERSION\n"

@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env bash
 
 # node versions are managed via n, which is in the brewfile
 # See zshrc for N_PREFIX variable and add to PATH

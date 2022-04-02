@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env bash
 
 # Prints a countdown to the terminal in seconds, e.g.,
 # sleep_countdown # defaults to 10 seconds

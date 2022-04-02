@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env bash
 
 CLRNC='\033[0m' # No Color
 CLRHEAD='\033[1;36m'

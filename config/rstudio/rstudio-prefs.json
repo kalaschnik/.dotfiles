@@ -10,8 +10,8 @@
         "tabSet1": [
             "Environment",
             "History",
-            "VCS",
             "Build",
+            "VCS",
             "Presentation"
         ],
         "tabSet2": [
@@ -40,7 +40,7 @@
     "font_size_points": 12,
     "pdf_previewer": "none",
     "posix_terminal_shell": "zsh",
-    "jobs_tab_visibility": "shown",
+    "jobs_tab_visibility": "closed",
     "default_encoding": "UTF-8",
     "document_author": "Steven Kalinke",
     "rmd_viewer_type": "pane",
