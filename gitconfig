@@ -20,3 +20,4 @@
     cmd = code --wait $MERGED
 [core]
 	editor = nano
+	pager = less -+FX
