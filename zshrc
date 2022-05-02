@@ -62,7 +62,8 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 # This is also used by R and radian to set response language
 export LANG=en_US.UTF-8
 
-
+# Allow interactive comments (#)
+setopt interactive_comments
 
 ###############################################################################
 # Path additions
