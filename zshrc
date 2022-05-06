@@ -32,7 +32,7 @@ fi
 # Aliases
 ###############################################################################
 # Use exa for ls
-alias exa='exa -laFh --git --group-directories-first'
+alias exa='exa -aa --header --long --classify --git --group-directories-first --icons --accessed --modified --created --group'
 # forward ls to exa
 alias ls=exa
 alias ll=exa
