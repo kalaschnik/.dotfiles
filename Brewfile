@@ -98,6 +98,8 @@ cask "1password"
 cask "alfred"
 # Enable Windows-like alt-tab
 cask "alt-tab"
+# Distribution of the Python and R programming languages for scientific computing
+cask "anaconda"
 # Electronics prototyping platform
 cask "arduino"
 # Collaborative team software
