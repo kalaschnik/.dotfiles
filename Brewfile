@@ -115,8 +115,6 @@ cask "font-open-sans"
 cask "google-chrome"
 # Utility to fix grammar errors and style issues in text
 cask "grammarly"
-# Terminal emulator as alternative to Apple's Terminal app
-cask "iterm2"
 # Password manager app
 cask "keepassxc"
 # Animated screen capture application
