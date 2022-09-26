@@ -139,6 +139,8 @@ cask "nextcloud"
 cask "obs"
 # Cloud storage client
 cask "onedrive"
+# Desktop virtualization software
+cask "parallels"
 # Screen measuring tool
 cask "pixelsnap"
 # Environment for statistical computing and graphics
@@ -151,10 +153,18 @@ cask "signal"
 cask "spotify"
 # Quicklook extension for source files
 cask "syntax-highlight"
+# Remote access and connectivity software focused on security
+cask "teamviewer"
 # Messaging app with a focus on speed and security
 cask "telegram"
 # Free and open-source OpenVPN client
 cask "tunnelblick"
+# Configurable document editor that supports Markdown
+cask "typora"
+# Open-source code editor
+cask "visual-studio-code"
+# Multimedia player
+cask "vlc"
 # Remote desktop application focusing on security
 cask "vnc-viewer"
 # Desktop client for WhatsApp
