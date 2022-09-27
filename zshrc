@@ -42,6 +42,7 @@ alias R='R --no-save --no-restore-data'
 alias bbd='brew bundle dump --file=~/.dotfiles/Brewfile --force --describe'
 alias rm=trash # using node’s global trash-cli
 alias trail='bat<<<${(F)path}'
+alias p='cd ~/Nextcloud/projects/'
 
 ###############################################################################
 # Functions
