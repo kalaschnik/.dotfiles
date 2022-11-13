@@ -1,6 +1,6 @@
 <img align="right" width="96" src="assets/dotfiles-logo-stacked.png">
 
-# My .dotfiles (macOS)
+# My dotfiles (macOS)
 
 > My dotfiles and configuration scripts to setup a new machine, using [dotbot](https://github.com/anishathalye/dotbot) & [Homebrew](https://github.com/Homebrew/brew), and custom bash scripts.
 
@@ -12,7 +12,7 @@
 2. Check if all git repos are pushed
 3. If a git repo lives outside of a cloud service **check the git ignored files**
 4. Create a fresh brew bundle dump using `bbd`
-5. Check the `~/.dotfiles/Brewfile` and delte entries that should not be installed on the new machine
+5. Check the `~/dotfiles/Brewfile` and delte entries that should not be installed on the new machine
 6. Optional: copy SSH key pair if yout don’t want to create new one
 
 ## New machine setup
@@ -28,20 +28,20 @@
    ```
 3. Paste this here: https://github.com/settings/ssh/new
 
-4. Clone this repo in `~/.dotfiles`:
+4. Clone this repo in `~/dotfiles`:
    ```bash
-   git clone git@github.com:kalaschnik/.dotfiles.git ~/.dotfiles
+   git clone git@github.com:kalaschnik/dotfiles.git ~/dotfiles
    ```
 5. Run the install process
    ```bash
-   ~/.dotfiles/install
+   ~/dotfiles/install
    ```
 
 ## Post Installation
 
 1. Symlink SSH Config if Nextcloud is complete
    ```bash
-   ln -s ~/Nextcloud/.dotfiles/ssh/config ~/.ssh/config
+   ln -s ~/Nextcloud/dotfiles/ssh/config ~/.ssh/config
    ```
 
 ## Notes for myself

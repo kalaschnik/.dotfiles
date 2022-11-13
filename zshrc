@@ -39,7 +39,7 @@ alias ll=exa
 # use old ls with lsa
 alias lsa='command ls -lAFh'
 alias R='R --no-save --no-restore-data'
-alias bbd='brew bundle dump --file=~/.dotfiles/Brewfile --force --describe'
+alias bbd='brew bundle dump --file=~/dotfiles/Brewfile --force --describe'
 alias rm=trash # using node’s global trash-cli
 alias trail='bat<<<${(F)path}'
 alias p='cd ~/Nextcloud/projects/'
@@ -89,5 +89,6 @@ source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-substring
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
-# To customize prompt, run `p10k configure` or edit ~/.dotfiles/p10k.zsh.
-[[ ! -f ~/.dotfiles/p10k.zsh ]] || source ~/.dotfiles/p10k.zsh
+# To customize prompt, run `p10k configure` or edit ~/dotfiles/p10k.zsh.
+[[ ! -f ~/dotfiles/p10k.zsh ]] || source ~/dotfiles/p10k.zsh
+
