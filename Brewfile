@@ -9,12 +9,14 @@ tap "romkatv/powerlevel10k"
 brew "bat"
 # Get/set bluetooth power and discoverable state
 brew "blueutil"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.9"
+# Fish completion for brew-cask
+brew "brew-cask-completion"
 # Core application library for C
 brew "glib"
 # Manage compile and link flags for libraries
 brew "pkg-config"
+# Manage your dotfiles across multiple diverse machines, securely
+brew "chezmoi"
 # Modern replacement for 'ls'
 brew "exa"
 # GNU Ubiquitous Intelligent Language for Extensions
@@ -65,6 +67,8 @@ brew "n"
 brew "nano"
 # Fast, highly customisable system info script
 brew "neofetch"
+# 7-Zip (high compression file archiver) implementation
+brew "p7zip"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
 # Utility that provides fast incremental file transfer
@@ -93,6 +97,8 @@ brew "zsh-syntax-highlighting"
 brew "remove-bg/tap/removebg"
 # A Zsh Theme
 brew "romkatv/powerlevel10k/powerlevel10k"
+# A youtube-dl fork with additional features and fixes
+brew "yt-dlp/taps/yt-dlp"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Application launcher and productivity software
@@ -108,7 +114,9 @@ cask "figma"
 # Web browser
 cask "firefox"
 cask "font-computer-modern"
+# Free monospaced font with programming ligatures
 cask "font-fira-code"
+# Developer targeted fonts with a high number of glyphs
 cask "font-fira-code-nerd-font"
 cask "font-inter"
 cask "font-open-sans"
