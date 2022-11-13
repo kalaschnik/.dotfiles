@@ -1,7 +1,7 @@
 # disable time check devtools::check(), since this often fails or takes too long
 Sys.setenv('_R_CHECK_SYSTEM_CLOCK_' = 0)
 
-# attach always devtools
+# attaches devtools (... and usethis)
 if (interactive()) {
   suppressMessages(require(devtools))
 }
