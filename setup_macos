@@ -24,6 +24,11 @@ defaults write com.apple.dock "show-recents" -bool "false"
 # Change the Dock minimize animation 
 defaults write com.apple.dock "mineffect" -string "scale"
 
+# Default Finder View Style: List view
+defaults write com.apple.finder "FXPreferredViewStyle" -string "Nlsv"
+
+# Keep folders ontop in Finder
+defaults write com.apple.finder "_FXSortFoldersFirst" -bool "true"
 
 # SYSTEM
 # Set default screenshot location to Downloads instead of Desktop (default)
@@ -34,6 +39,9 @@ defaults write com.apple.screencapture "location" -string "~/Downloads"
 
 # Rich text is disabled by default
 defaults write com.apple.TextEdit "RichText" -bool "false"
+
+# Remove items from bin after 30 days
+defaults write com.apple.finder "FXRemoveOldTrashItems" -bool "true"
 
 
 # SOUND
