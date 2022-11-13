@@ -2,6 +2,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
+tap "r-lib/rig"
 tap "remove-bg/tap"
 tap "romkatv/powerlevel10k"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -145,6 +146,8 @@ cask "parallels"
 cask "pixelsnap"
 # Environment for statistical computing and graphics
 cask "r"
+# The R Installation Manager
+cask "rig"
 # Data science software focusing on R and Python
 cask "rstudio"
 # Instant messaging application focusing on security
